@@ -29,4 +29,3 @@ def get_top_and_bottom():
             no_wait.append(r)
 
     return random.choice(no_wait), zeroed_ride[0]
-#bfc89fd6-314d-44b4-b89e-df1a89cf991e
