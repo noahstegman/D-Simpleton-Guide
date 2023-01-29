@@ -1,0 +1,28 @@
+{% extends 'wrapper.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+    <div class="wrapper">
+        <div class="wrapper-sides" id="g">
+            <div class="title">
+                RIDE
+            </div>
+            <div class="content">
+                <div>{{ bottom['name'] }}</div>
+                <div class="wait">{{ bottom['wait'] }} minute wait</div>
+            </div>
+        </div>
+        <div class="wrapper-sides" id="r">
+            <div class="title">
+                AVOID
+            </div>
+            <div class="content">
+                <div>{{ top['name'] }}</div>
+                <div class="wait">{{ top['wait'] }} minute wait</div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
